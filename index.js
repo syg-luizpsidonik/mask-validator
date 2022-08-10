@@ -13,7 +13,7 @@ function maskCep(string){
     return string
 }
 function maskCnpj(string){
-    v=v.replace(/\D/g,"")
+    string=string.replace(/\D/g,"")
     string=string.replace("(\b[0-9]\b)/g","")
     string=string.replace(/^(\d{2})(\d)/,"$1.$2")
     string=string.replace(/^(\d{2})\.(\d{3})(\d)/,"$1.$2.$3")

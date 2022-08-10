@@ -1,6 +1,6 @@
 {
   "name": "syg-mask-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Máscaras para aplicações em vuejs: cpf, cnpj, cnae, telefone, celular, cep e Conversor de Input File para Base64.",
   "main": "index.js",
   "scripts": {

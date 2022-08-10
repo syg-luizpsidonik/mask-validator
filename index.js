@@ -32,14 +32,14 @@ function maskCpf(string){
 function maskTelefone(string){
     string=string.replace(/\D/g,"")
     string=string.replace("(\b[0-9]\b)/g","")
-    string=string.replace(/^(\d{2})(\d)/,"($1)$2")
+    string=string.replace(/^(\d{2})(\d)/,"($1) $2")
     string=string.replace(/^[(](\d{2})[)][ ](\d{4})(\d)/,"($1) $2-$3")
     return string
 }
 function maskCelular(string){
     string=string.replace(/\D/g,"")
     string=string.replace("(\b[0-9]\b)/g","")
-    string=string.replace(/^(\d{2})(\d)/,"($1)$2")
+    string=string.replace(/^(\d{2})(\d)/,"($1) $2")
     string=string.replace(/^[(](\d{2})[)][ ](\d{5})(\d)/,"($1) $2-$3")
     return string
 }
